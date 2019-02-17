@@ -73,4 +73,5 @@ p {
 
 .beautify {
   color: pink;
+  text-transform: lowercase;
 }
