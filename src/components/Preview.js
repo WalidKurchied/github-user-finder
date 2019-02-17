@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import Styler from "./HOCS/Styler.js";
+import Styler from "./hocs/Styler.js";
 
 function Preview(props) {
   if (props.userInfo == null) return null;
@@ -12,11 +12,11 @@ function Preview(props) {
 
       <section id="detailsSection">
         <div className="detailBlock">
-          <strong>NAME</strong>
+          <strong>name</strong>
           <p className={props.classes}>{props.userInfo.name}</p>
         </div>
         <div className="detailBlock">
-          <strong>LOCATION</strong>
+          <strong>location</strong>
           <p className={props.classes}>{props.userInfo.location}</p>
         </div>
       </section>
